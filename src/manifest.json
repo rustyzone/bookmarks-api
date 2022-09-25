@@ -1,0 +1,12 @@
+{
+  "name": "Bookmark Override",
+  "description": "Simple bookmark manager",
+  "permissions": ["bookmarks", "tabs"],
+  "action": {
+    "default_popup": "pages/popup/index.html"
+  },
+  "chrome_url_overrides": {
+    "bookmarks": "pages/bookmarks/index.html"
+  },
+  "manifest_version": 3
+}
